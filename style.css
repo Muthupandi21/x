@@ -15,16 +15,6 @@ header {
     margin: 0 auto; /* Centers the header */
 }
 
-.header-left{
-    display: flex;
-    gap: 20px;
-    color: #063C91;
-    align-items: center;
-    justify-content: center;
-    font-family: "Playfair Display", serif;
-    font-size: 18px;
-}
-
 .header-left .logo {
     height: 75px; /* Adjust the height as needed */
 }
@@ -32,7 +22,6 @@ header {
 .header-right {
     display: flex;
     align-items: center;
-    gap: 20px;
 }
 
 .header-right .header-button {
@@ -46,14 +35,9 @@ header {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.header-right .header-button {
+.header-right .header-button:hover {
     background-color: #063C91;
     color: #fff;
-}
-
-.header-right .header-button:hover {
-    background-color: #F5F5F5;
-    color: #063C91;
 }
 
 .carousel {
@@ -174,11 +158,4 @@ header {
 
 .card-button:hover {
     background: linear-gradient(to bottom, #FAD692 0%, #FFB143 100%); /* Reverse the gradient on hover */
-}
-
-.vision{
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    color: #063C91;
 }
